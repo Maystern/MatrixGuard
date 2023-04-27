@@ -5,7 +5,7 @@
 
 ## 项目介绍
 
-本项目是 SUSTech CS201 Discrete Mathematics 的第大作业。
+本项目是 SUSTech CS201 Discrete Mathematics 的大作业。
 
 项目主要在 `ARM` 和 `x86` 架构上实现快速矩阵乘法。
 
