@@ -9,6 +9,8 @@
 
 项目主要在 `ARM` 和 `x86` 架构上实现快速矩阵乘法。
 
+[>> Report <<](https://github.com/Maystern/SUSTech_CS201_Matrix_Multiplication/blob/main/doc/report.pdf)
+
 ## 如何运行 
 
 项目推荐在 `Ubuntu` 环境下运行。
