@@ -12,12 +12,13 @@
 \usepackage{multirow}
 \usepackage{multicol}
 \usepackage[lined,boxed,commentsnumbered]{algorithm2e}
+
 \def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
 		T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
 \begin{document}
+
 	
 	\title{Matrix Blocking, Instruction Set and Parallelization: Optimization of Matrix Multiplication on Hierarchical CPUs}
-	
 	\author{\IEEEauthorblockN{1\textsuperscript{st} Jiacheng Luo}
 		\IEEEauthorblockA{\textit{dept. Computer Science and Engineering} \\
 			\textit{Southern University of Science and Technology}\\
@@ -25,8 +26,11 @@
 			12112910@mail.sustech.edu.cn}
 	}
 	
-	\maketitle
-	
+	\maketitle \thispagestyle{plain}
+	\setcounter{page}{1}
+	\pagenumbering{arabic}
+	\pagestyle{plain}
+
 	\begin{abstract}
 		Matrix multiplication is a crucial operation that finds its applications in many subfields of computer science, such as machine learning, image processing, computer graphics, scientific computing, and cryptography. However, the naive algorithm for matrix multiplication fails to utilize hierarchical memories (multi-layer caches) efficiently, affecting its overall efficacy. To address this problem, we propose several techniques, such as loop reordering, matrix blocking with instruction sets and parallelizing, to improve the efficiency of matrix multiplication in classical modern computers with hierarchical memories. Furthermore, we indicate that the utilization rate of the computer cache is a critical constraint that affects the speed of matrix multiplication. Additionally, we present an implementation of fast CPU matrix multiplication. Our method is approximately 2000 times faster than the naive one as demonstrated through extensive experiments conducted on randomly generated single-precision floating-point matrices.
 	\end{abstract}

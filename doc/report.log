@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.5.22)  29 APR 2023 05:07
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.5.22)  29 APR 2023 05:20
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -457,24 +457,24 @@ File: l3backend-pdftex.def 2022-02-07 L3 backend support: PDF output (pdfTeX)
 ) (./report.aux)
 \openout1 = `report.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
 
 -- Lines per column: 56 (exact).
 (c:/texlive/2022/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
@@ -496,7 +496,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (c:/texlive/2022/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-Package hyperref Info: Link coloring OFF on input line 17.
+Package hyperref Info: Link coloring OFF on input line 18.
  (c:/texlive/2022/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
  (c:/texlive/2022/texmf-dist/tex/latex/refcount/refcount.sty
@@ -506,9 +506,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count315
 )
-LaTeX Info: Redefining \ref on input line 17.
-LaTeX Info: Redefining \pageref on input line 17.
-LaTeX Info: Redefining \nameref on input line 17.
+LaTeX Info: Redefining \ref on input line 18.
+LaTeX Info: Redefining \pageref on input line 18.
+LaTeX Info: Redefining \nameref on input line 18.
  (./report.out) (./report.out)
 \@outlinefile=\write3
 \openout3 = `report.out'.
@@ -522,12 +522,12 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 29.
  (c:/texlive/2022/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Underfull \hbox (badness 3312) in paragraph at lines 45--46
+Underfull \hbox (badness 3312) in paragraph at lines 49--50
 []\OT1/ptm/m/n/10 We used sev-eral ran-domly gen-er-ated single-precision
  []
 
 
-Overfull \hbox (6.00735pt too wide) detected at line 61
+Overfull \hbox (6.00735pt too wide) detected at line 65
 [][][]
  []
 
@@ -538,154 +538,154 @@ Overfull \hbox (6.00735pt too wide) detected at line 61
 pdfTeX warning (ext4): destination with the same identifier (name{equation.2.1}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.72 	\section
+l.76 	\section
               {Preliminary}] [2]
 <fig1.png, id=154, 887.56593pt x 347.79938pt>
 File: fig1.png Graphic file (type png)
 <use fig1.png>
-Package pdftex.def Info: fig1.png  used on input line 167.
+Package pdftex.def Info: fig1.png  used on input line 171.
 (pdftex.def)             Requested size: 232.19843pt x 90.98824pt.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 173.
+(hyperref)                removing `math shift' on input line 177.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@@underline' on input line 173.
+(hyperref)                removing `\@@underline' on input line 177.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\hbox' on input line 173.
+(hyperref)                removing `\hbox' on input line 177.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\mathsurround' on input line 173.
+(hyperref)                removing `\mathsurround' on input line 177.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\z@' on input line 173.
+(hyperref)                removing `\z@' on input line 177.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 173.
+(hyperref)                removing `math shift' on input line 177.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 173.
+(hyperref)                removing `math shift' on input line 177.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@@underline' on input line 173.
+(hyperref)                removing `\@@underline' on input line 177.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\hbox' on input line 173.
+(hyperref)                removing `\hbox' on input line 177.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\mathsurround' on input line 173.
+(hyperref)                removing `\mathsurround' on input line 177.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\z@' on input line 173.
+(hyperref)                removing `\z@' on input line 177.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 173.
+(hyperref)                removing `math shift' on input line 177.
 
 
-Underfull \hbox (badness 4341) in paragraph at lines 173--174
+Underfull \hbox (badness 4341) in paragraph at lines 177--178
  \OT1/ptm/m/it/10 1) matmul$[]$blockMatrix$[]$2x2(matrix1, ma-trix2): [][][] \OT1/ptm/m/n/10 We de-
  []
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 175.
+(hyperref)                removing `math shift' on input line 179.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@@underline' on input line 175.
+(hyperref)                removing `\@@underline' on input line 179.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\hbox' on input line 175.
+(hyperref)                removing `\hbox' on input line 179.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\mathsurround' on input line 175.
+(hyperref)                removing `\mathsurround' on input line 179.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\z@' on input line 175.
+(hyperref)                removing `\z@' on input line 179.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 175.
+(hyperref)                removing `math shift' on input line 179.
 
 
-Underfull \hbox (badness 4531) in paragraph at lines 175--176
+Underfull \hbox (badness 4531) in paragraph at lines 179--180
  \OT1/ptm/m/it/10 2) matmul$[]$blockMatrix(matrix1, ma-trix2): [][][] \OT1/ptm/m/n/10 Ad-di-tion-ally,
  []
 
 [3 <./fig1.png>]
-Underfull \hbox (badness 1454) in paragraph at lines 214--215
+Underfull \hbox (badness 1454) in paragraph at lines 218--219
 []\OT1/ptm/m/n/10 Strassen's al-go-rithm re-quires more com-pu-ta-tion and
  []
 
 <fig2.png, id=168, 754.31813pt x 222.07968pt>
 File: fig2.png Graphic file (type png)
 <use fig2.png>
-Package pdftex.def Info: fig2.png  used on input line 230.
+Package pdftex.def Info: fig2.png  used on input line 234.
 (pdftex.def)             Requested size: 258.0pt x 75.95677pt.
 <fig3.png, id=171, 756.57657pt x 221.32687pt>
 File: fig3.png Graphic file (type png)
 <use fig3.png>
-Package pdftex.def Info: fig3.png  used on input line 238.
+Package pdftex.def Info: fig3.png  used on input line 242.
 (pdftex.def)             Requested size: 258.0pt x 75.47302pt.
 <fig3-2.png, id=172, 458.46281pt x 234.1247pt>
 File: fig3-2.png Graphic file (type png)
 <use fig3-2.png>
-Package pdftex.def Info: fig3-2.png  used on input line 239.
+Package pdftex.def Info: fig3-2.png  used on input line 243.
 (pdftex.def)             Requested size: 154.80157pt x 79.05118pt.
 <fig4.png, id=174, 486.31688pt x 417.81094pt>
 File: fig4.png Graphic file (type png)
 <use fig4.png>
-Package pdftex.def Info: fig4.png  used on input line 247.
+Package pdftex.def Info: fig4.png  used on input line 251.
 (pdftex.def)             Requested size: 206.39685pt x 177.32185pt.
 <fig5.png, id=176, 528.47438pt x 194.97844pt>
 File: fig5.png Graphic file (type png)
 <use fig5.png>
-Package pdftex.def Info: fig5.png  used on input line 255.
+Package pdftex.def Info: fig5.png  used on input line 259.
 (pdftex.def)             Requested size: 258.0pt x 95.18622pt.
 <fig5-2.png, id=177, 672.26157pt x 149.8097pt>
 File: fig5-2.png Graphic file (type png)
 <use fig5-2.png>
-Package pdftex.def Info: fig5-2.png  used on input line 256.
+Package pdftex.def Info: fig5-2.png  used on input line 260.
 (pdftex.def)             Requested size: 206.39685pt x 45.99477pt.
 [4 <./fig2.png> <./fig3.png> <./fig3-2.png>]
 <fig6-1.png, id=191, 480.29437pt x 167.12437pt>
 File: fig6-1.png Graphic file (type png)
 <use fig6-1.png>
-Package pdftex.def Info: fig6-1.png  used on input line 266.
+Package pdftex.def Info: fig6-1.png  used on input line 270.
 (pdftex.def)             Requested size: 206.39685pt x 71.81871pt.
 <fig6-2.png, id=192, 746.03719pt x 131.74219pt>
 File: fig6-2.png Graphic file (type png)
 <use fig6-2.png>
-Package pdftex.def Info: fig6-2.png  used on input line 267.
+Package pdftex.def Info: fig6-2.png  used on input line 271.
 (pdftex.def)             Requested size: 258.0pt x 45.55965pt.
 <fig6-3.png, id=193, 560.0925pt x 175.40532pt>
 File: fig6-3.png Graphic file (type png)
 <use fig6-3.png>
-Package pdftex.def Info: fig6-3.png  used on input line 268.
+Package pdftex.def Info: fig6-3.png  used on input line 272.
 (pdftex.def)             Requested size: 206.39685pt x 64.63664pt.
 <fig6-4.png, id=194, 512.66531pt x 147.55125pt>
 File: fig6-4.png Graphic file (type png)
 <use fig6-4.png>
-Package pdftex.def Info: fig6-4.png  used on input line 269.
+Package pdftex.def Info: fig6-4.png  used on input line 273.
 (pdftex.def)             Requested size: 206.39685pt x 59.40219pt.
 
-Underfull \hbox (badness 1502) in paragraph at lines 279--280
+Underfull \hbox (badness 1502) in paragraph at lines 283--284
  \OT1/ptm/m/it/10 1) Par-al-leliza-tion: [][][] \OT1/ptm/m/n/10 The op-ti-miza-tions men-tioned above
  []
 
@@ -693,40 +693,40 @@ Underfull \hbox (badness 1502) in paragraph at lines 279--280
 <fig7.png, id=215, 774.7344pt x 440.847pt>
 File: fig7.png Graphic file (type png)
 <use fig7.png>
-Package pdftex.def Info: fig7.png  used on input line 376.
+Package pdftex.def Info: fig7.png  used on input line 380.
 (pdftex.def)             Requested size: 258.0pt x 146.81186pt.
 
-Overfull \hbox (6.01253pt too wide) in paragraph at lines 396--410
+Overfull \hbox (6.01253pt too wide) in paragraph at lines 400--414
  [][] 
  []
 
 [6 <./fig7.png>]
-Overfull \hbox (5.99739pt too wide) in paragraph at lines 421--433
+Overfull \hbox (5.99739pt too wide) in paragraph at lines 425--437
  [][] 
  []
 
 <fig8.png, id=228, 719.8092pt x 362.7954pt>
 File: fig8.png Graphic file (type png)
 <use fig8.png>
-Package pdftex.def Info: fig8.png  used on input line 436.
+Package pdftex.def Info: fig8.png  used on input line 440.
 (pdftex.def)             Requested size: 258.0pt x 130.03606pt.
 <fig9.png, id=231, 755.9442pt x 406.6392pt>
 File: fig9.png Graphic file (type png)
 <use fig9.png>
-Package pdftex.def Info: fig9.png  used on input line 477.
+Package pdftex.def Info: fig9.png  used on input line 481.
 (pdftex.def)             Requested size: 258.0pt x 138.7829pt.
 [7 <./fig8.png> <./fig9.png>]
 <fig10.png, id=244, 682.7106pt x 384.9582pt>
 File: fig10.png Graphic file (type png)
 <use fig10.png>
-Package pdftex.def Info: fig10.png  used on input line 501.
+Package pdftex.def Info: fig10.png  used on input line 505.
 (pdftex.def)             Requested size: 258.0pt x 145.4809pt.
 <fig11.png, id=246, 1084.05pt x 703.9098pt>
 File: fig11.png Graphic file (type png)
 <use fig11.png>
-Package pdftex.def Info: fig11.png  used on input line 513.
+Package pdftex.def Info: fig11.png  used on input line 517.
 (pdftex.def)             Requested size: 258.0pt x 167.52402pt.
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 534.
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 538.
  (c:/texlive/2022/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
@@ -743,22 +743,19 @@ Before submitting the final camera ready copy, remember to:
  process uses the appropriate paper size.
 
 [8 <./fig10.png> <./fig11.png>] (./report.aux)
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package rerunfilecheck Info: File `report.out' has not changed.
 (rerunfilecheck)             Checksum: 816E6DA004A055E6FB1CA857DD58CF77;7330.
  ) 
 Here is how much of TeX's memory you used:
- 12426 strings out of 478268
- 195259 string characters out of 5850345
+ 12425 strings out of 478268
+ 195249 string characters out of 5850345
  523299 words of memory out of 5000000
- 30386 multiletter control sequences out of 15000+600000
+ 30385 multiletter control sequences out of 15000+600000
  510990 words of font info for 114 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  60i,11n,63p,1719b,338s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {c:/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc}<c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2022/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb><c:/texlive/2022/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2022/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on report.pdf (8 pages, 1014914 bytes).
+Output written on report.pdf (8 pages, 1015019 bytes).
 PDF statistics:
  348 PDF objects out of 1000 (max. 8388607)
  270 compressed objects within 3 object streams
