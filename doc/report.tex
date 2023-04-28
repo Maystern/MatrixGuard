@@ -16,7 +16,7 @@
 		T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
 \begin{document}
 	
-	\title{Optimization of Matrix Multiplication on CPU}
+	\title{Matrix Blocking, Instruction Set and Parallelization: Optimization of Matrix Multiplication on Hierarchical CPUs}
 	
 	\author{\IEEEauthorblockN{1\textsuperscript{st} Jiacheng Luo}
 		\IEEEauthorblockA{\textit{dept. Computer Science and Engineering} \\
@@ -70,8 +70,9 @@
 	\subsection{Cache Behavior}
 	The efficiency of the matrix multiplication algorithm relies on the storage format of the matrix, which could be in row first, column first, or mixed. The efficiency of the algorithm could vary depending on the chosen storage format. Also, the order can have a considerable impact on practical performance due to the memory access patterns and cache use of the algorithm.\cite{b2} The optimal variant of the iterative algorithm for two $n \times n$ matrices $A$ and $B$ in row-major layout is a tiled version, where the matrix is implicitly divided into square tiles of size $\sqrt{M}$ by $\sqrt{M}$. \cite{b3} In the idealized cache model, this algorithm incurs only $ \Theta(\frac{n^3}{b\sqrt{M}})$ cache misses; the divisor $b\sqrt{M}$ amounts to several orders of magnitude on modern machines, so that the actual calculations dominate the running time, rather than the cache misses.
 	\section{Preliminary}
+	In this section, we will provide a comprehensive understanding of the underlying principles and techniques required to solve the matrix multiplication problem. The explanation will include the definition of matrix multiplication, how to measure program runtime, and the definition of FLOPs. These insightful concepts will help us quantify our solution approach and improve our ability to solve the problem efficiently. Additionally, by quantifying the program's execution time and computing capabilities, we can evaluate the effectiveness of our solutions. The purpose of this section is to enable readers to appreciate the significance of the subsequent algorithmic developments and their contribution to the field. The section's structure will follow a logical progression from fundamental concepts to more advanced topics, preparing readers for the upcoming sections.
 	\subsection{Matrix Multiplication}
-	Matrix multiplication is an operation that takes two matrices and produces a third matrix. Given two matrices $A$ and $B$, where $A$ has $m$ rows and $n$ columns, and B has $n$ rows and $p$ columns, their product $C$ is an $m$ by $p$ matrix. The $(i,j)$-th entry of $C$ is given by the sum of the products of all elements in the $i$-th row of $A$ and the $j$-th column of $B$:
+	Matrix multiplication is an operation that takes two matrices and produces a third matrix. Given two matrices $A$ and $B$, where $A$ has $m$ rows and $n$ columns, and $B$ has $n$ rows and $p$ columns, their product $C$ is an $m$ by $p$ matrix. The $(i,j)$-th entry of $C$ is given by the sum of the products of all elements in the $i$-th row of $A$ and the $j$-th column of $B$:
 	
 	\begin{equation}
 		C_{i,j} = \sum_{k=1}^{n} A_{i,k} B_{k,j}
@@ -282,7 +283,7 @@
 	
 	\section{Experiments}
 	
-	In the experimental section, we randomly generated a single precision floating-point matrix of size $n \times n$ for experimentation. Firstly, we conducted experiments by changing the loop order of the naive algorithm. We used multiple datasets of different sizes and compared the execution time of the two loop sequences that resulted in the least and the most cache misses, respectively. Then, we used multiple datasets of varying sizes to test the execution time of Strassen's algorithm and matrix multiplication with blocking and parallel instructions optimized. We also compared the relative accuracy of each method and explained the reasons for our observations. Finally, we implemented the matrix multiplication library designed for CPU using C on the x86 and ARM platforms and compared the running efficiency of the two platforms. The source code is open source at \url{https://github.com/Maystern/SUSTech_CS201_Matrix_Multiplication}.
+	In the experimental section, we randomly generated a single precision floating-point matrix of size $n \times n$ for experimentation. Firstly, we conducted experiments by changing the loop order of the naive algorithm. We used multiple datasets of different sizes and compared the execution time of the two loop sequences that resulted in the least and the most cache misses, respectively. Then, we used multiple datasets of varying sizes to test the execution time of Strassen's algorithm and matrix multiplication with blocking and parallel instructions optimized. We also compared the relative accuracy of each method and explained the reasons for our observations. We implemented the matrix multiplication library designed for CPU using C on the x86 and ARM platforms and compared the running efficiency of the two platforms.
 	
 	\subsection{Platform}
 	To compare the efficiency of matrix multiplication on different platforms, we conducted experiments on three platforms, as shown in table~\ref{tab:system_config1}, ~\ref{tab:system_config2} and ~\ref{tab:system_config3}. Please note that unless otherwise specified, the experiments will be tested on the x86 server ``x86 Server Platform: CVIP Server" without any compiler optimization flags.
@@ -517,6 +518,10 @@
 	The library was used to perform matrix calculations. For smaller matrix data sizes, matrix multiplication on ARM platforms proved to be more efficient than on x86 platforms, especially those with more cores, where efficiency was lower. For larger matrix data sizes, the efficiency markedly improved with more CPU cores, thanks to the use of multi-threading. Even with the same number of cores, ARM platforms demonstrated slightly higher efficiency than x86 platforms.
 	
 	Optimization for matrix multiplication was carried out using this library on different testing platforms, resulting in major improvements. However, the bottleneck effect was observed on x86 and ARM platforms with fewer cores, leading to stable floating-point frame rates.
+	
+	\subsection{Implementation of C}
+		We implemented the matrix multiplication library designed for CPU using C on the x86 and ARM platforms and the source code is open source at \url{https://github.com/Maystern/SUSTech_CS201_Matrix_Multiplication}.
+	
 	\section{Conclusion}
 	
 	In this work, we discovered that the naive matrix multiplication method does not fully utilize modern computer tiered architecture, resulting in significant data IO overhead and low efficiency. However, through appropriate data structure organization, parallelization, and instruction set optimization, the efficiency of naive matrix multiplication improved by over 2000 times. Other divide-and-conquer algorithms with lower time complexity were not suitable for practical matrix multiplication due to specific circumstances. Based on the matrix computing library proposed in this study, we can perform efficient cross-platform matrix calculations on both x86 and ARM platforms, which has significant potential.

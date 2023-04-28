@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.5.22)  28 APR 2023 04:19
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.5.22)  28 APR 2023 17:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -665,79 +665,79 @@ File: fig1.png Graphic file (type bmp)
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 172.
+(hyperref)                removing `math shift' on input line 173.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@@underline' on input line 172.
+(hyperref)                removing `\@@underline' on input line 173.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\hbox' on input line 172.
+(hyperref)                removing `\hbox' on input line 173.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\mathsurround' on input line 172.
+(hyperref)                removing `\mathsurround' on input line 173.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\z@' on input line 172.
+(hyperref)                removing `\z@' on input line 173.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 172.
+(hyperref)                removing `math shift' on input line 173.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 172.
+(hyperref)                removing `math shift' on input line 173.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@@underline' on input line 172.
+(hyperref)                removing `\@@underline' on input line 173.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\hbox' on input line 172.
+(hyperref)                removing `\hbox' on input line 173.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\mathsurround' on input line 172.
+(hyperref)                removing `\mathsurround' on input line 173.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\z@' on input line 172.
+(hyperref)                removing `\z@' on input line 173.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 172.
+(hyperref)                removing `math shift' on input line 173.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 174.
+(hyperref)                removing `math shift' on input line 175.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@@underline' on input line 174.
+(hyperref)                removing `\@@underline' on input line 175.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\hbox' on input line 174.
+(hyperref)                removing `\hbox' on input line 175.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\mathsurround' on input line 174.
+(hyperref)                removing `\mathsurround' on input line 175.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\z@' on input line 174.
+(hyperref)                removing `\z@' on input line 175.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 174.
+(hyperref)                removing `math shift' on input line 175.
 
+[3]
 Missing character: There is no ​ (U+200B) in font [lmroman10-regular]:mapping=t
 ex-text;!
-[3]
 Missing character: There is no ​ (U+200B) in font [lmroman10-regular]:mapping=t
 ex-text;!
 Missing character: There is no ​ (U+200B) in font [lmroman10-regular]:mapping=t
@@ -754,6 +754,7 @@ File: fig5.png Graphic file (type bmp)
 <fig5.png>
 File: fig5-2.png Graphic file (type bmp)
 <fig5-2.png>
+[4]
 File: fig6-1.png Graphic file (type bmp)
 <fig6-1.png>
 File: fig6-2.png Graphic file (type bmp)
@@ -762,59 +763,64 @@ File: fig6-3.png Graphic file (type bmp)
 <fig6-3.png>
 File: fig6-4.png Graphic file (type bmp)
 <fig6-4.png>
-[4] [5]
+ [5]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 File: fig7.png Graphic file (type bmp)
 <fig7.png>
-
-
-LaTeX Font Warning: Font shape `TU/ptm/b/n' undefined
-(Font)              using `TU/ptm/bx/n' instead on input line 408.
-
-
-LaTeX Font Warning: Font shape `TU/ptm/b/n' undefined
-(Font)              using `TU/ptm/bx/n' instead on input line 408.
-
-
-LaTeX Font Warning: Font shape `TU/ptm/b/n' undefined
-(Font)              using `TU/ptm/bx/n' instead on input line 408.
-
-
-LaTeX Font Warning: Font shape `TU/ptm/b/n' undefined
-(Font)              using `TU/ptm/bx/n' instead on input line 408.
-
-
-Overfull \hbox (6.00897pt too wide) in paragraph at lines 395--409
- [][] 
- []
-
 [6]
 
 LaTeX Font Warning: Font shape `TU/ptm/b/n' undefined
-(Font)              using `TU/ptm/bx/n' instead on input line 431.
+(Font)              using `TU/ptm/bx/n' instead on input line 409.
 
 
 LaTeX Font Warning: Font shape `TU/ptm/b/n' undefined
-(Font)              using `TU/ptm/bx/n' instead on input line 431.
+(Font)              using `TU/ptm/bx/n' instead on input line 409.
 
 
 LaTeX Font Warning: Font shape `TU/ptm/b/n' undefined
-(Font)              using `TU/ptm/bx/n' instead on input line 431.
+(Font)              using `TU/ptm/bx/n' instead on input line 409.
 
 
 LaTeX Font Warning: Font shape `TU/ptm/b/n' undefined
-(Font)              using `TU/ptm/bx/n' instead on input line 431.
+(Font)              using `TU/ptm/bx/n' instead on input line 409.
 
 
-Overfull \hbox (6.009pt too wide) in paragraph at lines 420--432
+Overfull \hbox (6.00897pt too wide) in paragraph at lines 396--410
+ [][] 
+ []
+
+
+LaTeX Font Warning: Font shape `TU/ptm/b/n' undefined
+(Font)              using `TU/ptm/bx/n' instead on input line 432.
+
+
+LaTeX Font Warning: Font shape `TU/ptm/b/n' undefined
+(Font)              using `TU/ptm/bx/n' instead on input line 432.
+
+
+LaTeX Font Warning: Font shape `TU/ptm/b/n' undefined
+(Font)              using `TU/ptm/bx/n' instead on input line 432.
+
+
+LaTeX Font Warning: Font shape `TU/ptm/b/n' undefined
+(Font)              using `TU/ptm/bx/n' instead on input line 432.
+
+
+Overfull \hbox (6.009pt too wide) in paragraph at lines 421--433
  [][] 
  []
 
 File: fig8.png Graphic file (type bmp)
 <fig8.png>
 
-Overfull \hbox (7.46404pt too wide) in paragraph at lines 455--473
+Overfull \hbox (7.46404pt too wide) in paragraph at lines 456--474
  [][] 
  []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
 
 File: fig9.png Graphic file (type bmp)
 <fig9.png>
@@ -823,7 +829,7 @@ File: fig10.png Graphic file (type bmp)
 <fig10.png>
 File: fig11.png Graphic file (type bmp)
 <fig11.png>
-
+ [8]
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -835,20 +841,22 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[8] (./report.aux)
+[9
+
+] (./report.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `report.out' has not changed.
-(rerunfilecheck)             Checksum: 080CB8AA41E9CE1E97735F7B55AB7D41;7171.
+(rerunfilecheck)             Checksum: 816E6DA004A055E6FB1CA857DD58CF77;7330.
  ) 
 Here is how much of TeX's memory you used:
  12094 strings out of 476179
  192252 string characters out of 5813072
- 540446 words of memory out of 5000000
+ 537616 words of memory out of 5000000
  32673 multiletter control sequences out of 15000+600000
  477341 words of font info for 72 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  60i,11n,64p,1718b,338s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on report.pdf (8 pages).
+Output written on report.pdf (9 pages).
