@@ -1,5 +1,7 @@
 # CS201 Project: Matrix Blocking, Instruction Set and Parallelization: Optimization of Matrix Multiplication on Hierarchical CPUs
 
+**Note:** Click [here](https://github.com/Maystern/SUSTech_CS201_Matrix_Multiplication/blob/main/doc/report.pdf) for report.
+
 This project is the final assignment for the course `CS201 Discrete Mathematics` at the Southern University of Science and Technology. The primary objective of the project is to implement efficient matrix multiplication algorithms for both `ARM` and `x86` architectures, and to compare their performance using different optimization techniques, such as `multi-threading`, `instruction set optimization`, and `compilation optimization`.
 
 If you find our work useful, please consider citing our work using the bibtex:
@@ -11,7 +13,6 @@ If you find our work useful, please consider citing our work using the bibtex:
 	year    = {2023},
 }
 ```
-Click here for report: [[>> Report <<]](https://github.com/Maystern/SUSTech_CS201_Matrix_Multiplication/blob/main/doc/report.pdf)
 
 Running the project on the `Ubuntu` operating system is recommended, and `Git` and `CMake` tools are used for code version control, compilation and building.
 
