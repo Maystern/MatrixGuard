@@ -1,6 +1,6 @@
 # CS201 Project：Optimization of Matrix Multiplication on CPU
 
-The final assignment for the course `CS201 Discrete Mathematics` at the Southern University of Science and Technology aims to implement a fast matrix multiplication algorithm on both the `ARM` and `x86` architectures. The primary objective of the project is to test and compare the performance of the two architectures with different optimization techniques.
+This project is the final assignment for the course `CS201 Discrete Mathematics` at the Southern University of Science and Technology. The primary objective of the project is to implement efficient matrix multiplication algorithms for both `ARM` and `x86` architectures, and to compare their performance using different optimization techniques, such as `multi-threading`, `instruction set optimization`, and `compilation optimization`.
 
 If you find our work useful, please consider citing our work using the bibtex:
 ```
@@ -13,10 +13,7 @@ If you find our work useful, please consider citing our work using the bibtex:
 ```
 Click here for report: [>> Report <<](https://github.com/Maystern/SUSTech_CS201_Matrix_Multiplication/blob/main/doc/report.pdf)
 
-
-## 如何运行 
-
-This project is the final assignment for the course `CS201 Discrete Mathematics` at the Southern University of Science and Technology. The primary objective of the project is to implement efficient matrix multiplication algorithms for both `ARM` and `x86` architectures, and to compare their performance using different optimization techniques, such as `multi-threading`, `instruction set optimization`, and `compilation optimization`. Running the project on the `Ubuntu` operating system is recommended, and `Git` and `CMake tools` are used for code version control, compilation and building.
+Running the project on the `Ubuntu` operating system is recommended, and `Git` and `CMake tools` are used for code version control, compilation and building.
 
 The detailed steps for building the project code using `Git` and `CMake` are as follows:
 
