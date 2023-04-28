@@ -4,7 +4,7 @@ This project is the final assignment for the course `CS201 Discrete Mathematics`
 
 If you find our work useful, please consider citing our work using the bibtex:
 ```
-@Article{ssformers,
+@Article{MatrixMultiplicationOptimization,
 	author  = {Jiacheng Luo},
 	title   = {Matrix Blocking, Instruction Set and Parallelization:
 		   Optimization of Matrix Multiplication on Hierarchical CPUs},
