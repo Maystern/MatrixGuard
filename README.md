@@ -7,8 +7,8 @@ If you find our work useful, please consider citing our work using the bibtex:
 @Article{ssformers,
 	author  = {Jiacheng Luo},
 	title   = {Matrix Blocking, Instruction Set and Parallelization:
-Optimization of Matrix Multiplication on
-Hierarchical CPUs},
+		   Optimization of Matrix Multiplication on
+		   Hierarchical CPUs},
 	year    = {2023},
 }
 ```
