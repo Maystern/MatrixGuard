@@ -1,15 +1,17 @@
 # CS201 Project：Optimization of Matrix Multiplication on CPU
 
-- 作者：罗嘉诚 (Jiacheng Luo)
-- 学号：12112910
+The final assignment for the course `CS201 Discrete Mathematics` at the Southern University of Science and Technology aims to implement a fast matrix multiplication algorithm on both the `ARM` and `x86` architectures. The primary objective of the project is to test and compare the performance of the two architectures with different optimization techniques.
 
-## 项目介绍
+If you find our work useful, please consider citing our work using the bibtex:
+```
+@Article{ssformers,
+	author  = {Jiacheng Luo},
+	title   = {Matrix Blocking, Instruction Set and Parallelization: Optimization of Matrix Multiplication on Hierarchical CPUs},
+	year    = {2023},
+}
+```
+Click here for report: [>> Report <<](https://github.com/Maystern/SUSTech_CS201_Matrix_Multiplication/blob/main/doc/report.pdf)
 
-本项目是 SUSTech CS201 Discrete Mathematics 的大作业。
-
-项目主要在 `ARM` 和 `x86` 架构上实现快速矩阵乘法。
-
-[>> Report <<](https://github.com/Maystern/SUSTech_CS201_Matrix_Multiplication/blob/main/doc/report.pdf)
 
 ## 如何运行 
 
