@@ -11,7 +11,7 @@ If you find our work useful, please consider citing our work using the bibtex:
 	year    = {2023},
 }
 ```
-Click here for report: [>> Report <<](https://github.com/Maystern/SUSTech_CS201_Matrix_Multiplication/blob/main/doc/report.pdf)
+Click here for report: [[>> Report <<]](https://github.com/Maystern/SUSTech_CS201_Matrix_Multiplication/blob/main/doc/report.pdf)
 
 Running the project on the `Ubuntu` operating system is recommended, and `Git` and `CMake tools` are used for code version control, compilation and building.
 
