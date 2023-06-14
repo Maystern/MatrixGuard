@@ -14,23 +14,23 @@
 \fi}
 \global\let\hyper@last\relax 
 \gdef\HyperFirstAtBeginDocument#1{#1}
-\providecommand\HyField@AuxAddToFields[1]{}
-\providecommand\HyField@AuxAddToCoFields[2]{}
+\providecommand*\HyPL@Entry[1]{}
 \citation{b1}
 \citation{b2}
 \citation{b3}
+\HyPL@Entry{0<</S/D>>}
 \providecommand \oddpage@label [2]{}
 \@writefile{toc}{\contentsline {section}{\numberline {I}Introduction}{1}{section.1}\protected@file@percent }
 \@writefile{toc}{\contentsline {section}{\numberline {II}Related Work}{1}{section.2}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {II-A}}Divide-and-conquer Algorithm}{1}{subsection.2.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {II-B}}Cache Behavior}{1}{subsection.2.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {II-B}}Cache Behavior}{2}{subsection.2.2}\protected@file@percent }
 \@writefile{toc}{\contentsline {section}{\numberline {III}Preliminary}{2}{section.3}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {III-A}}Matrix Multiplication}{2}{subsection.3.1}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {III-B}}Execution Time}{2}{subsection.3.2}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {III-C}}FLOP}{2}{subsection.3.3}\protected@file@percent }
 \@writefile{toc}{\contentsline {section}{\numberline {IV}Our Method}{2}{section.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {IV-A}}Reordering Loops}{2}{subsection.4.1}\protected@file@percent }
 \citation{b5}
-\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {IV-A}}Reordering Loops}{3}{subsection.4.1}\protected@file@percent }
 \@writefile{lot}{\contentsline {table}{\numberline {I}{\ignorespaces Number of Jumps for Different Loop Orders}}{3}{table.1}\protected@file@percent }
 \newlabel{tab:loopjumps}{{I}{3}{Number of Jumps for Different Loop Orders}{table.1}{}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {IV-B}}Matrix Blocking}{3}{subsection.4.2}\protected@file@percent }
@@ -44,29 +44,29 @@
 \newlabel{matrixBlockingStep0}{{2}{4}{Matrix Blocking Step (0)}{figure.2}{}}
 \@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Matrix Blocking Step (1)}}{4}{figure.3}\protected@file@percent }
 \newlabel{matrixBlockingStep1}{{3}{4}{Matrix Blocking Step (1)}{figure.3}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Matrix Blocking Step (2)}}{5}{figure.4}\protected@file@percent }
-\newlabel{matrixBlockingStep2}{{4}{5}{Matrix Blocking Step (2)}{figure.4}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Matrix Blocking Step (2)}}{4}{figure.4}\protected@file@percent }
+\newlabel{matrixBlockingStep2}{{4}{4}{Matrix Blocking Step (2)}{figure.4}{}}
 \@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces Matrix Blocking Step (3)}}{5}{figure.5}\protected@file@percent }
 \newlabel{matrixBlockingStep3}{{5}{5}{Matrix Blocking Step (3)}{figure.5}{}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {\mbox  {IV-D}1}Parallelization}{5}{subsubsection.4.4.1}\protected@file@percent }
 \@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces Matrix Blocking Step (4)}}{5}{figure.6}\protected@file@percent }
 \newlabel{matrixBlockingStep4}{{6}{5}{Matrix Blocking Step (4)}{figure.6}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {\mbox  {IV-D}1}Parallelization}{5}{subsubsection.4.4.1}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {\mbox  {IV-D}2}Instruction Set Optimization}{5}{subsubsection.4.4.2}\protected@file@percent }
 \@writefile{toc}{\contentsline {section}{\numberline {V}Experiments}{5}{section.5}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {V-A}}Platform}{5}{subsection.5.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {V-B}}Change the Loop Order}{5}{subsection.5.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {\mbox  {V-B}1}With the increase in matrix size, the time consumption of both algorithms increases. However, the loop optimization algorithm performs better than the naive brute-force algorithm, taking lesser time}{5}{subsubsection.5.2.1}\protected@file@percent }
 \@writefile{lot}{\contentsline {table}{\numberline {II}{\ignorespaces x86 PC Platform: Lenovo Xiaoxin Pro 16}}{6}{table.2}\protected@file@percent }
 \newlabel{tab:system_config1}{{II}{6}{x86 PC Platform: Lenovo Xiaoxin Pro 16}{table.2}{}}
 \@writefile{lot}{\contentsline {table}{\numberline {III}{\ignorespaces x86 Server Platform: CVIP Server}}{6}{table.3}\protected@file@percent }
 \newlabel{tab:system_config2}{{III}{6}{x86 Server Platform: CVIP Server}{table.3}{}}
 \@writefile{lot}{\contentsline {table}{\numberline {IV}{\ignorespaces ARM PC Platform: MacBook Air M1}}{6}{table.4}\protected@file@percent }
 \newlabel{tab:system_config3}{{IV}{6}{ARM PC Platform: MacBook Air M1}{table.4}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {V-B}}Change the Loop Order}{6}{subsection.5.2}\protected@file@percent }
 \@writefile{lot}{\contentsline {table}{\numberline {V}{\ignorespaces Loop Order Optimization}}{6}{table.5}\protected@file@percent }
 \newlabel{tab:matrix-mult-perf}{{V}{6}{Loop Order Optimization}{table.5}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {\mbox  {V-B}2} With the increase in matrix size, changes in the floating-point frame rate of both algorithms differ: The floating-point frame rate of the naive brute-force algorithm first increases and then decreases, while that of the loop optimization algorithm first increases and then gradually stabilizes}{6}{subsubsection.5.2.2}\protected@file@percent }
 \@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces Loop Order Optimization}}{6}{figure.7}\protected@file@percent }
 \newlabel{fig::loop order}{{7}{6}{Loop Order Optimization}{figure.7}{}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {\mbox  {V-B}1}With the increase in matrix size, the time consumption of both algorithms increases. However, the loop optimization algorithm performs better than the naive brute-force algorithm, taking lesser time}{6}{subsubsection.5.2.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {\mbox  {V-B}2} With the increase in matrix size, changes in the floating-point frame rate of both algorithms differ: The floating-point frame rate of the naive brute-force algorithm first increases and then decreases, while that of the loop optimization algorithm first increases and then gradually stabilizes}{6}{subsubsection.5.2.2}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {V-C}}Strassen's Algorithm}{6}{subsection.5.3}\protected@file@percent }
 \@writefile{lot}{\contentsline {table}{\numberline {VI}{\ignorespaces Strassen's Algorithm (1)}}{6}{table.6}\protected@file@percent }
 \newlabel{table:NaiveStrassenAlgorithm}{{VI}{6}{Strassen's Algorithm (1)}{table.6}{}}
@@ -79,13 +79,13 @@
 \newlabel{tab:matrixfinal}{{VIII}{7}{Matrix Blocking with Instruction Set Optimization and Parallelization Techniques}{table.8}{}}
 \@writefile{lof}{\contentsline {figure}{\numberline {9}{\ignorespaces Matrix Blocking with Instruction Set Optimization and Parallelization Techniques}}{7}{figure.9}\protected@file@percent }
 \newlabel{fig::matrixfinal}{{9}{7}{Matrix Blocking with Instruction Set Optimization and Parallelization Techniques}{figure.9}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {V-E}}Error}{7}{subsection.5.5}\protected@file@percent }
 \bibstyle{IEEEtran}
 \bibcite{b1}{1}
 \bibcite{b2}{2}
 \bibcite{b3}{3}
 \bibcite{b5}{4}
 \bibdata{IEEEexample}
-\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {V-E}}Error}{8}{subsection.5.5}\protected@file@percent }
 \@writefile{lof}{\contentsline {figure}{\numberline {10}{\ignorespaces Error for Each Method}}{8}{figure.10}\protected@file@percent }
 \newlabel{fig::error}{{10}{8}{Error for Each Method}{figure.10}{}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {V-F}}Different Platform}{8}{subsection.5.6}\protected@file@percent }
