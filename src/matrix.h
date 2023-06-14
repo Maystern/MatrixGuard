@@ -1,8 +1,8 @@
 /*
-    Copyright 2022 SUSTech CS205 2022-Fall
+    Copyright 2023 SUSTech CS201 2023-Spring
     License(CC BY 4.0)
     Author: Jiacheng Luo
-    This is the header file of the matrix library.
+    This is the matrix library.
 */
 #ifndef SRC_MATRIX_H_
 #define SRC_MATRIX_H_

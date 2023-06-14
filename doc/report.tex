@@ -523,6 +523,14 @@
 	
 	In this work, we discovered that the naive matrix multiplication method does not fully utilize modern computer tiered architecture, resulting in significant data IO overhead and low efficiency. However, through appropriate data structure organization, parallelization, and instruction set optimization, the efficiency of naive matrix multiplication improved by over 2000 times. Other divide-and-conquer algorithms with lower time complexity were not suitable for practical matrix multiplication due to specific circumstances. Based on the matrix computing library proposed in this study, we can perform efficient cross-platform matrix calculations on both x86 and ARM platforms, which has significant potential.
 	
+	It should be noted that in the CS205 C/CPP Program Design course, we have also implemented a Matrix multiplication library. 
+	It uses the pointer technology of C/CPP for memory management, avoiding memory leakage and other problems in engineering, 
+	but does not further optimize the efficiency of Matrix multiplication Algorithmic efficiency. The difference between this project and it is 
+	that it uses technologies such as Cache and SIMD introduced in the CS202 Computer Organization course, 
+	as well as methods such as algorithm time complexity analysis, matrix blocking, divide-and-conque algorithm principles introduced in CS201 Discrete Mathematics. This paper proposes a Matrix multiplication library that is significantly better than the previous project in terms of theoretical Time complexity and practical use (more than 2000 times of performance improvement).
+
+	Additionally, this project is related to many courses of the Computer Department, including Discrete mathematics, algorithm design and analysis, Computer Organization, and C/CPP Program Design. We think this is a new and very valuable work, because it provides the possibility to further accelerate matrix calculation operations on the CPU.
+
 	\bibliographystyle{IEEEtran}
 	\begin{thebibliography}{00}
 		\bibitem{b1} Cormen, Thomas H.; Leiserson, Charles E.; Rivest, Ronald L.; Stein, Clifford (2009) [1990]. Introduction to Algorithms (3rd ed.). MIT Press and McGraw-Hill. pp. 75–79. ISBN 0-262-03384-4.
