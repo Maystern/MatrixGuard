@@ -1,4 +1,4 @@
-# CS201 Project: Matrix Blocking, Instruction Set and Parallelization: Optimization of Matrix Multiplication on Hierarchical CPUs
+# CS201 MatrixGuard: Secure and Efficient Matrix Operations on ARM and x86
 
 **Note:** Click [here](https://github.com/Maystern/SUSTech_CS201_Matrix_Multiplication/blob/main/doc/report.pdf) for report.
 
