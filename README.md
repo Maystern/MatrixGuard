@@ -1,15 +1,14 @@
-# CS201 MatrixGuard: Secure and Efficient Matrix Operations on ARM and x86
+# MatrixGuard: Secure and Efficient Matrix Operations on ARM and x86
 
 **Note:** Click [here](https://github.com/Maystern/SUSTech_CS201_Matrix_Multiplication/blob/main/doc/report.pdf) for report.
 
-This project is the final assignment for the course `CS201 Discrete Mathematics` at the Southern University of Science and Technology. The primary objective of the project is to implement efficient matrix multiplication algorithms for both `ARM` and `x86` architectures, and to compare their performance using different optimization techniques, such as `multi-threading`, `instruction set optimization`, and `compilation optimization`.
+The primary objective of the project is to implement efficient matrix multiplication algorithms for both `ARM` and `x86` architectures, and to compare their performance using different optimization techniques, such as `multi-threading`, `instruction set optimization`, and `compilation optimization`.
 
 If you find our work useful, please consider citing our work using the bibtex:
 ```
 @Article{MatrixMultiplicationOptimization,
 	author  = {Jiacheng Luo},
-	title   = {Matrix Blocking, Instruction Set and Parallelization:
-		   Optimization of Matrix Multiplication on Hierarchical CPUs},
+	title   = {MatrixGuard: Secure and Efficient Matrix Operations on ARM and x86},
 	year    = {2023},
 }
 ```
